@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Subway.com]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="subway.com Test(failed)">
+    <classes>
+      <class name="com.subway.HomePageTest">
+        <methods>
+          <include name="burndown"/>
+          <include name="signin" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.subway.HomePageTest -->
+    </classes>
+  </test> <!-- subway.com Test(failed) -->
+</suite> <!-- Failed suite [Subway.com] -->
