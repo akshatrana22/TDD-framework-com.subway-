@@ -53,7 +53,7 @@ public class HomePageTest extends BaseFunctions {
 		locators=HomePage.verifyStartOrder()
 				.validatepickUpDeliveryBtn()
 				.validateFilterChckBox()
-				.enterAddress("Milford, CT, USA");
+				.enterAddress("Milford, PT, USA");
 		
 	}
 	
